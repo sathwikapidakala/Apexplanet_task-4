@@ -1,0 +1,123 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#f4f6fb;
+color:#333;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:linear-gradient(45deg,#4facfe,#00f2fe);
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:500;
+}
+
+/* Hero */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(120deg,#84fab0,#8fd3f4);
+color:white;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:white;
+color:#333;
+font-weight:bold;
+cursor:pointer;
+border-radius:25px;
+transition:0.3s;
+}
+
+.hero button:hover{
+transform:scale(1.1);
+}
+
+/* Sections */
+
+section{
+padding:60px 10%;
+text-align:center;
+}
+
+/* Projects */
+
+.project-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+
+form{
+max-width:400px;
+margin:auto;
+}
+
+form input, form textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+padding:12px;
+background:#4facfe;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#00c6ff;
+}
+
+/* Footer */
+
+footer{
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
